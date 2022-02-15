@@ -14,7 +14,8 @@ func buildTree(inorder []int, postorder []int) *TreeNode {
 	nodeValue := postorder[len(postorder)-1]
 	// 从中序遍历中找到一分为二的点，左边为左子树，右边为右子树
 	left := findRootIndex(inorder, nodeValue)
-	root := &TreeNode{Val: nodeValue,
+	root := &TreeNode{
+			Val: nodeValue,
 			Left: buildTree(inorder[:left], postorder[:left]),
 			Right: buildTree(inorder[left+1:],postorder[left:len(postorder)-1])}
 	return root
