@@ -4,7 +4,8 @@ import (
 	"fmt"
 	"sort"
 )
-
+// 47 全排列 ii
+// https://leetcode-cn.com/problems/permutations-ii/
 func permuteUnique(nums []int) [][]int {
 	var result [][]int
 	var backtracking func(nums []int, start int, used []bool, track []int, result *[][]int)
