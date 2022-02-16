@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// 组合总和iii
+// 组合总和 III
 func combinationSum(k, n int) [][]int {
 	result := [][]int{}
 	//max := 9
