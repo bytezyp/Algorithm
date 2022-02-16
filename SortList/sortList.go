@@ -6,7 +6,7 @@ type ListNode struct {
 }
 
 func sortList(head *ListNode) *ListNode {
-
+	return head
 }
 
 func main()  {
