@@ -30,5 +30,12 @@ func combinationSum(k, n int) [][]int {
 }
 
 func main()  {
-	fmt.Println(combinationSum(3,9))
+	//fmt.Println(combinationSum(3,9))
+	fmt.Println(20%5)
+	fmt.Println(21%5)
+	fmt.Println(22%5)
+
+	fmt.Println(20%6)
+	fmt.Println(21%6)
+	fmt.Println(22%6)
 }

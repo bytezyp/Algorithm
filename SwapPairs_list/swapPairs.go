@@ -6,7 +6,7 @@ type ListNode struct {
 	Val int
 	Next *ListNode
 }
-
+// 链表两两交换
 func swapPairs(head *ListNode) *ListNode {
 	dump := &ListNode{0, head}
 	cur := dump
